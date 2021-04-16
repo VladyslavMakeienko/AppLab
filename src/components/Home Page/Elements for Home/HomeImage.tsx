@@ -7,6 +7,7 @@ const useStyles = makeStyles((theme: Theme) => ({
   imageStyles: {
     margin: "0 0 11px 0",
     objectFit: "cover",
+    overflow: "hidden",
     [theme.breakpoints.only("sm")]: {
       width: "87%",
     },

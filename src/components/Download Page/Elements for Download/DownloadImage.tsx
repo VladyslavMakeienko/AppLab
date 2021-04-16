@@ -7,6 +7,7 @@ const useStyles = makeStyles(() => ({
   imageStyles: {
     width: "100%",
     objectFit: "cover",
+    overflow: "hidden",
   },
   containerImageStyles: {
     display: "flex",
